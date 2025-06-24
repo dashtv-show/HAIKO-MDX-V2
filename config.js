@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~VEonwZCZ#So2Lq-QRUQaIKTKlTdGVn9FXRUGc5bXHQZRM_yW3kBo",
+SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~wRJAUKJT#KOHNFWfelgkJcu4kX_cRTcqGWTZnHlGV15CQlMM2DzA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY PROF-XTREM
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
-ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
@@ -25,7 +25,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/xp1wdz.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || "'",
+PREFIX: process.env.PREFIX || "*",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐",
 // add bot namw here for menu
@@ -37,7 +37,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "18292748112",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "18293511531",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "mr dacheno",
 // add bot owner name
