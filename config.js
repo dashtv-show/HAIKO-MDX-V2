@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~wRJAUKJT#KOHNFWfelgkJcu4kX_cRTcqGWTZnHlGV15CQlMM2DzA",
+SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~1RhiUJCA#qHY_2AoVqhDhYf3uqGIb7J1OYwXM9hasJww0wQUM4vw",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -73,11 +73,11 @@ READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 DEV: process.env.DEV || "529633982655",
 //replace with your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "true",
+ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
 };
   
